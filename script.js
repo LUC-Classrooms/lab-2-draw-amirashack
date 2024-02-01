@@ -23,6 +23,38 @@ function draw(){
   rect(580, 400, 60, 60);
   line(580, 431, 640, 431);
   line(609, 460, 609, 400);
-  rect()
-  
+  strokeWeight(2);
+  fill(155, 70, 0)
+  rect(100, 348, 18, 250);
+  fill(2, 90, 0);
+  beginShape();
+  vertex(100, 351);
+  vertex(40, 400);
+  vertex(10, 370);
+  vertex(15, 300);
+  vertex(90, 290);
+  vertex(50, 220);
+  vertex(120, 210);
+  vertex(145, 220);
+  vertex(140, 250);
+  vertex(170, 240);
+  vertex(190, 270);
+  vertex(150, 300);
+  vertex(230, 330);
+  vertex(170, 350);
+  vertex(150, 330);
+  vertex(168, 420);
+  vertex(95, 351);
+  endShape();
+  fill(123, 255, 0)
+  rect(367, 556, 5, 350);
+  fill(255, 14, 76);
+  ellipse(376, 560, 20, 20);
+  ellipse(363, 560, 20, 20);
+  ellipse(376, 543, 20, 20);
+  ellipse(363, 543, 20, 20);
+  ellipse(357,552, 20, 20);
+  ellipse(383, 552, 20, 20);
+  fill(255, 230, 50);
+  ellipse(370, 552, 15, 15);
 }
